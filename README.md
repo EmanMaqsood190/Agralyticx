@@ -29,6 +29,16 @@ Farmers today face:
 
 The gap extends beyond farmers — **students** can't find real projects, **researchers** can't find collaborators, **landowners** have idle land, and **companies** can't discover agri-talent. Everyone's in the same ecosystem, operating alone.
 
+<div align="center">
+
+| 📈 23.5% | 👥 37%+ | 🌾 ~50% |
+|:---:|:---:|:---:|
+| of Pakistan's GDP comes from agriculture | of Pakistan's labour force works in agriculture | of employed labour depends on the sector |
+
+*Source: Pakistan Economic Survey 2024–25 / Pakistan Bureau of Statistics*
+
+</div>
+
 > **"What if 8 out of 10 farmers went bankrupt this year — and nobody noticed?"**
 
 ---
@@ -127,6 +137,48 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 - [ ] **Testing & Refinement** — full QA across roles, auth, and features
 - [ ] **Nationwide Expansion** — beyond Punjab & Sindh to all of Pakistan
 - [ ] **Final Polish & Deployment**
+
+---
+
+## 🎥 Demo Video
+
+<div align="center">
+
+[![Watch the demo](https://img.shields.io/badge/▶-Watch%20Demo-red?style=for-the-badge)](#)
+
+*Link to be added — replace with your hosted video (YouTube/Drive/Loom).*
+
+</div>
+
+---
+
+## 🏗️ Architecture & System Workflow
+
+<div align="center">
+
+*Add your architecture diagram here — e.g. `assets/architecture.png`*
+
+```
+![Architecture](assets/architecture.png)
+```
+
+</div>
+
+A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) → MongoDB + Gemini API → Response (text/voice, localized)**
+
+---
+
+## 🖼️ Screenshots
+
+<div align="center">
+
+| Farmer Dashboard | AI Guide | Community |
+|:---:|:---:|:---:|
+| *screenshot* | *screenshot* | *screenshot* |
+
+*Add screenshots to `assets/` and link them here.*
+
+</div>
 
 ---
 
