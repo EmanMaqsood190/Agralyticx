@@ -65,8 +65,9 @@ Farmers ask the AI what they need, or browse crop guidance directly — with **v
 - 🔐 **Role-Based Access** — dedicated dashboards per role
 - 📍 **Region-Based Agri Info** — currently Punjab & Sindh
 - 🌿 **Crop Knowledge Library** — browsable issues (yellowing, pests, fungal symptoms) with guidance
-- 🤖 **AI Agricultural Guide** — describe a problem in plain language, get guidance back
+- 🤖 **AI Agricultural Guide** — describe a problem in plain language, get guidance back, by text or voice
 - 💰 **Budget Buddy** — production budgeting & affordable financing options
+- 🏦 **Agricultural Finance Directory** — subsidies & bank loans farmers can browse and apply to
 - 📊 **Mandi Rate Info** — real market-price visibility
 - ⛈️ **Weather & Disaster Alerts** — timely, farming-relevant warnings
 - 💬 **Agricultural Community** — role-specific spaces to connect and discuss
@@ -82,7 +83,7 @@ Farmers ask the AI what they need, or browse crop guidance directly — with **v
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Auth](https://img.shields.io/badge/Auth-Role--Based-F7B93E?style=flat-square)
 ![Gemini](https://img.shields.io/badge/AI-Gemini%20API%20(Live)-4285F4?style=flat-square&logo=google&logoColor=white)
-![Voice](https://img.shields.io/badge/Voice-STT%20%2F%20TTS%20(Planned)-9C27B0?style=flat-square)
+![Voice](https://img.shields.io/badge/Voice-STT%20%2F%20TTS%20(Live)-9C27B0?style=flat-square)
 ![i18n](https://img.shields.io/badge/i18n-EN%20%7C%20UR%20%7C%20PA-E91E63?style=flat-square)
 
 </div>
@@ -101,11 +102,14 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 
 | ✅ Live Today | 🚧 On the Roadmap |
 |:---|:---|
-| UI/UX for all 5 roles | Voice input/output (STT/TTS) |
-| Backend & Database (Node.js + MongoDB) | Real-time messaging & notifications |
-| AI Agricultural Guide (Gemini API) | Live weather / market / mapping APIs |
-| Language selection & onboarding guide | Agricultural finance directory |
-| Crop knowledge library | Nationwide region expansion |
+| UI/UX for all 5 roles | Real-time messaging & notifications |
+| Backend & Database (Node.js + MongoDB) | Better transport-tracking map integration |
+| AI Agricultural Guide (Gemini API) | Real datasets for Finance Directory |
+| Voice Input/Output (STT/TTS) | Nationwide region expansion |
+| Agricultural Finance Directory | |
+| Weather & Map Integration | |
+| Language selection & onboarding guide | |
+| Crop knowledge library | |
 | Community spaces (per role) | |
 | Modular architecture, ready to connect | |
 
@@ -115,10 +119,9 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 
 ## 🗺️ Roadmap
 
-- [ ] **Voice Integration** — speech-to-text / text-to-speech across all roles
-- [ ] **Core Feature Integration** — market rates, weather, hiring, transport going live
 - [ ] **Messaging & Notifications** — real-time, cross-role communication
-- [ ] **Agricultural Finance Directory** — subsidies & bank loans farmers can apply to directly
+- [ ] **Transport Tracking** — improved map integration to properly track goods in transit
+- [ ] **Real Finance Data** — replace mock data in the Finance Directory with real subsidy/loan datasets
 - [ ] **Testing & Refinement** — full QA across roles, auth, and features
 - [ ] **Nationwide Expansion** — beyond Punjab & Sindh to all of Pakistan
 - [ ] **Final Polish & Deployment**
