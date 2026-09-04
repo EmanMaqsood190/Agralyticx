@@ -4,6 +4,8 @@
 
 ### *AI-powered agriculture, connected.*
 
+Agralyticx is an AI-powered agricultural ecosystem that helps Pakistani farmers make better crop, market, finance, and logistics decisions through localized, voice-enabled assistance.
+
 A digital guide and interconnected ecosystem for Pakistan's agriculture sector — built for the **Alibaba AI Cloud Hackathon**.
 
 ![Status](https://img.shields.io/badge/status-MVP-orange?style=for-the-badge)
@@ -125,6 +127,21 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 - [ ] **Testing & Refinement** — full QA across roles, auth, and features
 - [ ] **Nationwide Expansion** — beyond Punjab & Sindh to all of Pakistan
 - [ ] **Final Polish & Deployment**
+
+---
+
+## 🔑 Environment Variables
+
+This repo is public — no real keys are committed. Create a `.env` file locally using this template:
+
+```
+GEMINI_API_KEY=
+MONGODB_URI=
+```
+
+> ⚠️ **Never commit real keys or credentials.** Use `.env` (git-ignored) for local secrets, and `.env.example` (like above) as a template for other contributors. If a key is ever exposed, revoke and rotate it — deleting it from a later commit does **not** remove it from Git history.
+
+**Never upload:** `.env` files, API keys, database credentials, auth secrets, tokens, passwords, or private user data.
 
 ---
 
