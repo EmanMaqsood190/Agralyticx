@@ -77,12 +77,12 @@ Farmers ask the AI what they need, or browse crop guidance directly — with **v
 
 <div align="center">
 
-![Frontend](https://img.shields.io/badge/Frontend-Component--Based%20UI-61DAFB?style=flat-square)
-![Backend](https://img.shields.io/badge/Backend-Server--Side%20App%20Layer-3C873A?style=flat-square)
+![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB?style=flat-square&logo=react&logoColor=white)
+![Backend](https://img.shields.io/badge/Backend-Node.js-3C873A?style=flat-square&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Auth](https://img.shields.io/badge/Auth-Role--Based-F7B93E?style=flat-square)
-![Gemini](https://img.shields.io/badge/AI-Gemini%20API-4285F4?style=flat-square&logo=google&logoColor=white)
-![Voice](https://img.shields.io/badge/Voice-STT%20%2F%20TTS-9C27B0?style=flat-square)
+![Gemini](https://img.shields.io/badge/AI-Gemini%20API%20(Live)-4285F4?style=flat-square&logo=google&logoColor=white)
+![Voice](https://img.shields.io/badge/Voice-STT%20%2F%20TTS%20(Planned)-9C27B0?style=flat-square)
 ![i18n](https://img.shields.io/badge/i18n-EN%20%7C%20UR%20%7C%20PA-E91E63?style=flat-square)
 
 </div>
@@ -95,17 +95,19 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 
 ## 📍 Where We Are: MVP Status
 
-> The MVP proves the **full product experience and role-based workflows** end-to-end through a responsive UI. Some services still run on mock/demo data while their live integrations are completed.
+> The MVP proves the **full product experience and role-based workflows** end-to-end, with a live backend and AI. Some external services still run on mock/demo data while their live integrations are completed.
 
 <div align="center">
 
 | ✅ Live Today | 🚧 On the Roadmap |
 |:---|:---|
-| UI/UX for all 5 roles | Backend & database integration |
-| Language selection & onboarding guide | Live AI & voice (Gemini, STT/TTS) |
-| Crop knowledge library | Real-time messaging & notifications |
-| Community spaces (per role) | Live weather / market / mapping APIs |
-| Modular architecture, ready to connect | Nationwide region expansion |
+| UI/UX for all 5 roles | Voice input/output (STT/TTS) |
+| Backend & Database (Node.js + MongoDB) | Real-time messaging & notifications |
+| AI Agricultural Guide (Gemini API) | Live weather / market / mapping APIs |
+| Language selection & onboarding guide | Agricultural finance directory |
+| Crop knowledge library | Nationwide region expansion |
+| Community spaces (per role) | |
+| Modular architecture, ready to connect | |
 
 </div>
 
@@ -113,9 +115,8 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 
 ## 🗺️ Roadmap
 
-- [ ] **Backend & Database Integration** — auth, profiles, persistent data via MongoDB
-- [ ] **Core Feature Integration** — crop analysis, market rates, weather, hiring, transport
-- [ ] **AI & Voice, Live** — Gemini + voice input/output across all roles
+- [ ] **Voice Integration** — speech-to-text / text-to-speech across all roles
+- [ ] **Core Feature Integration** — market rates, weather, hiring, transport going live
 - [ ] **Messaging & Notifications** — real-time, cross-role communication
 - [ ] **Agricultural Finance Directory** — subsidies & bank loans farmers can apply to directly
 - [ ] **Testing & Refinement** — full QA across roles, auth, and features
