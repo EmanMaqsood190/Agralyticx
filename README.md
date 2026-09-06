@@ -172,9 +172,30 @@ A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) �
 
 <div align="center">
 
-| Landing Page | AI Guide | Community |
-|:---:|:---:|:---:|
-| assets/Screenshot 2026-09-06 215023.png | *screenshot* | *screenshot* |
+## Screenshots
+### Landing Page
+![Agralyticx Screenshot 8](assets/Screenshot%202026-09-06%20215023.png)
+### Languages
+![Agralyticx Screenshot 7](assets/Screenshot%202026-09-06%20214935.png)
+### Roles
+![Agralyticx Screenshot 6](assets/Screenshot%202026-09-06%20214848.png)
+### Screenshot 1
+![Agralyticx Screenshot 1](assets/Screenshot%202026-09-06%20140806.png)
+
+### Screenshot 2
+![Agralyticx Screenshot 2](assets/Screenshot%202026-09-06%20141725.png)
+
+### Screenshot 3
+![Agralyticx Screenshot 3](assets/Screenshot%202026-09-06%20144806.png)
+
+### Screenshot 4
+![Agralyticx Screenshot 4](assets/Screenshot%202026-09-06%20145220.png)
+
+### Screenshot 5
+![Agralyticx Screenshot 5](assets/Screenshot%202026-09-06%20214738.png)
+
+### Screenshot 9
+![Agralyticx Screenshot 9](assets/Screenshot%202026-09-06%20215955.png)
 
 *Add screenshots to `assets/` and link them here.*
 
