@@ -172,9 +172,9 @@ A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) �
 
 <div align="center">
 
-| Farmer Dashboard | AI Guide | Community |
+| Landing Page | AI Guide | Community |
 |:---:|:---:|:---:|
-| *screenshot* | *screenshot* | *screenshot* |
+| assets/Screenshot 2026-09-06 215023.png | *screenshot* | *screenshot* |
 
 *Add screenshots to `assets/` and link them here.*
 
