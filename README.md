@@ -220,9 +220,6 @@ GEMINI_API_KEY=
 MONGODB_URI=
 ```
 
-> ⚠️ **Never commit real keys or credentials.** Use `.env` (git-ignored) for local secrets, and `.env.example` (like above) as a template for other contributors. If a key is ever exposed, revoke and rotate it — deleting it from a later commit does **not** remove it from Git history.
-
-**Never upload:** `.env` files, API keys, database credentials, auth secrets, tokens, passwords, or private user data.
 
 ---
 
