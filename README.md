@@ -203,8 +203,11 @@ A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) �
 This repo is public, no real keys are committed. Create a `.env` file locally using this template:
 
 ```
-GEMINI_API_KEY=
 MONGODB_URI=
+PORT=5000
+ALIBABA_API_KEY=
+ALIBABA_BASE_URL=
+GOOGLE_API_KEY=
 ```
 
 ## 👥 Team
