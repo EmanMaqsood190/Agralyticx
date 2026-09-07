@@ -169,7 +169,6 @@ A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) �
 
 <div align="center">
 
-## Screenshots
 ### Landing Page
 ![Agralyticx Screenshot 8](assets/Screenshot%202026-09-06%20215023.png)
 ### Languages
@@ -191,7 +190,7 @@ A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) �
 ### Screenshot 5
 ![Agralyticx Screenshot 5](assets/Screenshot%202026-09-06%20214738.png)
 
-### Screenshot 9
+### Screenshot 6
 ![Agralyticx Screenshot 9](assets/Screenshot%202026-09-06%20215955.png)
 
 
@@ -207,12 +206,6 @@ This repo is public, no real keys are committed. Create a `.env` file locally us
 GEMINI_API_KEY=
 MONGODB_URI=
 ```
-
-> ⚠️ **Never commit real keys or credentials.** Use `.env` (git-ignored) for local secrets, and `.env.example` (like above) as a template for other contributors. If a key is ever exposed, revoke and rotate it, deleting it from a later commit does **not** remove it from Git history.
-
-**Never upload:** `.env` files, API keys, database credentials, auth secrets, tokens, passwords, or private user data.
-
----
 
 ## 👥 Team
 
