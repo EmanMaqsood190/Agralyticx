@@ -6,7 +6,7 @@
 
 Agralyticx is an AI-powered agricultural ecosystem that helps Pakistani farmers make better crop, market, finance, and logistics decisions through localized, voice-enabled assistance.
 
-A digital guide and interconnected ecosystem for Pakistan's agriculture sector — built for the **Alibaba AI Cloud Hackathon**.
+A digital guide and interconnected ecosystem for Pakistan's agriculture sector built for the **Alibaba AI Cloud Hackathon**.
 
 ![Status](https://img.shields.io/badge/status-MVP-orange?style=for-the-badge)
 ![Roles](https://img.shields.io/badge/roles-5-2ea44f?style=for-the-badge)
