@@ -160,17 +160,17 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 
 </div>
 
-**Users / Roles** — Farmer, Transport Agent, Student/Researcher, Landowner, and Investor/Company each get a dedicated dashboard tailored to their needs (crop guidance, logistics, research/community, land listings, and partnership discovery, respectively).
+**Users / Roles** : Farmer, Transport Agent, Student/Researcher, Landowner, and Investor/Company each get a dedicated dashboard tailored to their needs (crop guidance, logistics, research/community, land listings, and partnership discovery, respectively).
 
-**Frontend (Web Application)** — role-based dashboards, multilingual support (English, Urdu, Punjabi, Sindhi), voice + text + image interaction, and a fully responsive design.
+**Frontend (Web Application)** : role-based dashboards, multilingual support (English, Urdu, Punjabi, Sindhi), voice + text + image interaction, and a fully responsive design.
 
-**Backend Services (Node.js + Express)** — REST APIs split into Authentication & Authorization (JWT, role-based access), User Management, Agriculture Services (crop info, mandi rates, weather), Logistics Services (transport requests, live tracking, fuel rates), Community Services (forums, chat, notifications), and an AI Service Layer (Gemini API, agricultural assistant, smart recommendations).
+**Backend Services (Node.js + Express)** : REST APIs split into Authentication & Authorization (JWT, role-based access), User Management, Agriculture Services (crop info, mandi rates, weather), Logistics Services (transport requests, live tracking, fuel rates), Community Services (forums, chat, notifications), and an AI Service Layer (Gemini API, agricultural assistant, smart recommendations).
 
-**External Integrations** — Gemini API for generative AI, a Weather API for forecasts, TTS/STT for voice interaction, and other APIs for mandi and fuel rates.
+**External Integrations** : Gemini API for generative AI, a Weather API for forecasts, TTS/STT for voice interaction, and other APIs for mandi and fuel rates.
 
-**Database (MongoDB)** — flexible, scalable NoSQL storage for user data, crop & land data, transactions, community posts, and analytics.
+**Database (MongoDB)** : flexible, scalable NoSQL storage for user data, crop & land data, transactions, community posts, and analytics.
 
-**AI Layer (Gemini)** — powers crop & soil recommendations, disease detection from image/text, personalized farming advice, and multilingual support.
+**AI Layer (Gemini)** : powers crop & soil recommendations, disease detection from image/text, personalized farming advice, and multilingual support.
 
 A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) → MongoDB + Gemini API → Response (text/voice, localized)**
 
