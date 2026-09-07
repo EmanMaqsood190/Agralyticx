@@ -156,7 +156,7 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 
 <div align="center">
 
-![Agralyticx System Architecture](assets/architecture.png)
+![Agralyticx System Architecture](assets/WhatsApp%20Image%202026-09-07%20at%2002.47.30.jpeg)
 
 </div>
 
