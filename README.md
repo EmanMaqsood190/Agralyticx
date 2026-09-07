@@ -6,7 +6,7 @@
 
 Agralyticx is an AI-powered agricultural ecosystem that helps Pakistani farmers make better crop, market, finance, and logistics decisions through localized, voice-enabled assistance.
 
-A digital guide and interconnected ecosystem for Pakistan's agriculture sector — built for the **Alibaba AI Cloud Hackathon**.
+A digital guide and interconnected ecosystem for Pakistan's agriculture sector, built for the **Alibaba AI Cloud Hackathon**.
 
 ![Status](https://img.shields.io/badge/status-MVP-orange?style=for-the-badge)
 ![Roles](https://img.shields.io/badge/roles-5-2ea44f?style=for-the-badge)
@@ -25,9 +25,9 @@ Farmers today face:
 
 | 🧩 Fragmentation | 📵 Digital Literacy Gap | 🔗 Middleman Dependency |
 |:---:|:---:|:---:|
-| One app for crops, one for weather, one for market prices — nothing talks to each other | Access to tech ≠ knowing how to use it | No alternatives means accepting whatever deal you're given |
+| One app for crops, one for weather, one for market prices, nothing talks to each other | Access to tech ≠ knowing how to use it | No alternatives means accepting whatever deal you're given |
 
-The gap extends beyond farmers — **students** can't find real projects, **researchers** can't find collaborators, **landowners** have idle land, and **companies** can't discover agri-talent. Everyone's in the same ecosystem, operating alone.
+The gap extends beyond farmers, **students** can't find real projects, **researchers** can't find collaborators, **landowners** have idle land, and **companies** can't discover agri-talent. Everyone's in the same ecosystem, operating alone.
 
 <div align="center">
 
@@ -39,13 +39,13 @@ The gap extends beyond farmers — **students** can't find real projects, **rese
 
 </div>
 
-> **"What if 8 out of 10 farmers went bankrupt this year — and nobody noticed?"**
+> **"What if 8 out of 10 farmers went bankrupt this year, and nobody noticed?"**
 
 ---
 
 ## 🚜 The Solution
 
-**Agralyticx** is a single, connected platform — not another single-purpose app.
+**Agralyticx** is a single, connected platform, not another single-purpose app.
 
 ```
 Before Agralyticx                          With Agralyticx
@@ -56,7 +56,7 @@ Limited access → limited knowledge         Accessible tech + guidance
       → fewer choices                             → informed decisions
 ```
 
-Farmers ask the AI what they need, or browse crop guidance directly — with **voice, visuals, and local-language support** meeting every literacy level.
+Farmers ask the AI what they need, or browse crop guidance directly, with **voice, visuals, and local-language support** meeting every literacy level.
 
 ### 🧑‍🌾 Five Connected Roles
 
@@ -72,17 +72,17 @@ Farmers ask the AI what they need, or browse crop guidance directly — with **v
 
 ## ✨ Core Features
 
-- 🌐 **Language Selection** — choose your preferred language at entry
-- 🧭 **Built-in Platform Guide** — onboarding for first-time digital users
-- 🔐 **Role-Based Access** — dedicated dashboards per role
-- 📍 **Region-Based Agri Info** — currently Punjab & Sindh
-- 🌿 **Crop Knowledge Library** — browsable issues (yellowing, pests, fungal symptoms) with guidance
-- 🤖 **AI Agricultural Guide** — describe a problem in plain language, get guidance back, by text or voice
-- 💰 **Budget Buddy** — production budgeting & affordable financing options
-- 🏦 **Agricultural Finance Directory** — subsidies & bank loans farmers can browse and apply to
-- 📊 **Mandi Rate Info** — real market-price visibility
-- ⛈️ **Weather & Disaster Alerts** — timely, farming-relevant warnings
-- 💬 **Agricultural Community** — role-specific spaces to connect and discuss
+- 🌐 **Language Selection**, choose your preferred language at entry
+- 🧭 **Built-in Platform Guide**, onboarding for first-time digital users
+- 🔐 **Role-Based Access**, dedicated dashboards per role
+- 📍 **Region-Based Agri Info**, currently Punjab & Sindh
+- 🌿 **Crop Knowledge Library**, browsable issues (yellowing, pests, fungal symptoms) with guidance
+- 🤖 **AI Agricultural Guide**, describe a problem in plain language, get guidance back, by text or voice
+- 💰 **Budget Buddy**, production budgeting & affordable financing options
+- 🏦 **Agricultural Finance Directory**, subsidies & bank loans farmers can browse and apply to
+- 📊 **Mandi Rate Info**, real market-price visibility
+- ⛈️ **Weather & Disaster Alerts**, timely, farming-relevant warnings
+- 💬 **Agricultural Community**, role-specific spaces to connect and discuss
 
 ---
 
@@ -100,7 +100,7 @@ Farmers ask the AI what they need, or browse crop guidance directly — with **v
 
 </div>
 
-The architecture is fully **modular** — auth, database, AI, speech, translation, and permissions all live as independent modules, so live services can be connected incrementally without restructuring the core experience.
+The architecture is fully **modular**, auth, database, AI, speech, translation, and permissions all live as independent modules, so live services can be connected incrementally without restructuring the core experience.
 
 **Built with:** Claude Sonnet 5, Claude Sonnet 4.6, ChatGPT, and Antigravity.
 
@@ -131,24 +131,14 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 
 ## 🗺️ Roadmap
 
-- [ ] **Messaging & Notifications** — real-time, cross-role communication
-- [ ] **Transport Tracking** — improved map integration to properly track goods in transit
-- [ ] **Real Finance Data** — replace mock data in the Finance Directory with real subsidy/loan datasets
-- [ ] **Testing & Refinement** — full QA across roles, auth, and features
-- [ ] **Nationwide Expansion** — beyond Punjab & Sindh to all of Pakistan
+- [ ] **Messaging & Notifications**, real-time, cross-role communication
+- [ ] **Transport Tracking**, improved map integration to properly track goods in transit
+- [ ] **Real Finance Data**, replace mock data in the Finance Directory with real subsidy/loan datasets
+- [ ] **Testing & Refinement**, full QA across roles, auth, and features
+- [ ] **Nationwide Expansion**, beyond Punjab & Sindh to all of Pakistan
 - [ ] **Final Polish & Deployment**
 
 ---
-
-## 🎥 Demo Video
-
-<div align="center">
-
-[![Watch the demo](https://img.shields.io/badge/▶-Watch%20Demo-red?style=for-the-badge)](#)
-
-*Link to be added*
-
-</div>
 
 ---
 
