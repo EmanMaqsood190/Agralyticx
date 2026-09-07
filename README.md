@@ -39,7 +39,7 @@ The gap extends beyond farmers — **students** can't find real projects, **rese
 
 </div>
 
-> **"What if 8 out of 10 farmers went bankrupt this year — and nobody noticed?"**
+> **"What if 8 out of 10 farmers went bankrupt this year and nobody noticed?"**
 
 ---
 
