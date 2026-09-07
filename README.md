@@ -25,9 +25,9 @@ Farmers today face:
 
 | 🧩 Fragmentation | 📵 Digital Literacy Gap | 🔗 Middleman Dependency |
 |:---:|:---:|:---:|
-| One app for crops, one for weather, one for market prices — nothing talks to each other | Access to tech ≠ knowing how to use it | No alternatives means accepting whatever deal you're given |
+| One app for crops, one for weather, one for market prices, nothing talks to each other | Access to tech ≠ knowing how to use it | No alternatives means accepting whatever deal you're given |
 
-The gap extends beyond farmers — **students** can't find real projects, **researchers** can't find collaborators, **landowners** have idle land, and **companies** can't discover agri-talent. Everyone's in the same ecosystem, operating alone.
+The gap extends beyond farmers, **students** can't find real projects, **researchers** can't find collaborators, **landowners** have idle land, and **companies** can't discover agri-talent. Everyone's in the same ecosystem, operating alone.
 
 <div align="center">
 
@@ -45,7 +45,7 @@ The gap extends beyond farmers — **students** can't find real projects, **rese
 
 ## 🚜 The Solution
 
-**Agralyticx** is a single, connected platform — not another single-purpose app.
+**Agralyticx** is a single, connected platform, not another single-purpose app.
 
 ```
 Before Agralyticx                          With Agralyticx
@@ -56,7 +56,7 @@ Limited access → limited knowledge         Accessible tech + guidance
       → fewer choices                             → informed decisions
 ```
 
-Farmers ask the AI what they need, or browse crop guidance directly — with **voice, visuals, and local-language support** meeting every literacy level.
+Farmers ask the AI what they need, or browse crop guidance directly, with **voice, visuals, and local-language support** meeting every literacy level.
 
 ### 🧑‍🌾 Five Connected Roles
 
@@ -72,17 +72,17 @@ Farmers ask the AI what they need, or browse crop guidance directly — with **v
 
 ## ✨ Core Features
 
-- 🌐 **Language Selection** — choose your preferred language at entry
-- 🧭 **Built-in Platform Guide** — onboarding for first-time digital users
-- 🔐 **Role-Based Access** — dedicated dashboards per role
-- 📍 **Region-Based Agri Info** — currently Punjab & Sindh
-- 🌿 **Crop Knowledge Library** — browsable issues (yellowing, pests, fungal symptoms) with guidance
-- 🤖 **AI Agricultural Guide** — describe a problem in plain language, get guidance back, by text or voice
-- 💰 **Budget Buddy** — production budgeting & affordable financing options
-- 🏦 **Agricultural Finance Directory** — subsidies & bank loans farmers can browse and apply to
-- 📊 **Mandi Rate Info** — real market-price visibility
-- ⛈️ **Weather & Disaster Alerts** — timely, farming-relevant warnings
-- 💬 **Agricultural Community** — role-specific spaces to connect and discuss
+- 🌐 **Language Selection**, choose your preferred language at entry
+- 🧭 **Built-in Platform Guide**, onboarding for first-time digital users
+- 🔐 **Role-Based Access**, dedicated dashboards per role
+- 📍 **Region-Based Agri Info**, currently Punjab & Sindh
+- 🌿 **Crop Knowledge Library**, browsable issues (yellowing, pests, fungal symptoms) with guidance
+- 🤖 **AI Agricultural Guide**, describe a problem in plain language, get guidance back, by text or voice
+- 💰 **Budget Buddy**, production budgeting & affordable financing options
+- 🏦 **Agricultural Finance Directory**, subsidies & bank loans farmers can browse and apply to
+- 📊 **Mandi Rate Info**, real market-price visibility
+- ⛈️ **Weather & Disaster Alerts**, timely, farming-relevant warnings
+- 💬 **Agricultural Community**, role-specific spaces to connect and discuss
 
 ---
 
@@ -100,7 +100,7 @@ Farmers ask the AI what they need, or browse crop guidance directly — with **v
 
 </div>
 
-The architecture is fully **modular** — auth, database, AI, speech, translation, and permissions all live as independent modules, so live services can be connected incrementally without restructuring the core experience.
+The architecture is fully **modular**, auth, database, AI, speech, translation, and permissions all live as independent modules, so live services can be connected incrementally without restructuring the core experience.
 
 **Built with:** Claude Sonnet 5, Claude Sonnet 4.6, ChatGPT, and Antigravity.
 
@@ -131,11 +131,11 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 
 ## 🗺️ Roadmap
 
-- [ ] **Messaging & Notifications** — real-time, cross-role communication
-- [ ] **Transport Tracking** — improved map integration to properly track goods in transit
-- [ ] **Real Finance Data** — replace mock data in the Finance Directory with real subsidy/loan datasets
-- [ ] **Testing & Refinement** — full QA across roles, auth, and features
-- [ ] **Nationwide Expansion** — beyond Punjab & Sindh to all of Pakistan
+- [ ] **Messaging & Notifications**, real-time, cross-role communication
+- [ ] **Transport Tracking**, improved map integration to properly track goods in transit
+- [ ] **Real Finance Data**, replace mock data in the Finance Directory with real subsidy/loan datasets
+- [ ] **Testing & Refinement**, full QA across roles, auth, and features
+- [ ] **Nationwide Expansion**, beyond Punjab & Sindh to all of Pakistan
 - [ ] **Final Polish & Deployment**
 
 
@@ -149,17 +149,17 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 
 </div>
 
-**Users / Roles** — Farmer, Transport Agent, Student/Researcher, Landowner, and Investor/Company each get a dedicated dashboard tailored to their needs (crop guidance, logistics, research/community, land listings, and partnership discovery, respectively).
+**Users / Roles**, Farmer, Transport Agent, Student/Researcher, Landowner, and Investor/Company each get a dedicated dashboard tailored to their needs (crop guidance, logistics, research/community, land listings, and partnership discovery, respectively).
 
-**Frontend (Web Application)** — role-based dashboards, multilingual support (English, Urdu, Punjabi, Sindhi), voice + text + image interaction, and a fully responsive design.
+**Frontend (Web Application)**, role-based dashboards, multilingual support (English, Urdu, Punjabi, Sindhi), voice + text + image interaction, and a fully responsive design.
 
-**Backend Services (Node.js + Express)** — REST APIs split into Authentication & Authorization (JWT, role-based access), User Management, Agriculture Services (crop info, mandi rates, weather), Logistics Services (transport requests, live tracking, fuel rates), Community Services (forums, chat, notifications), and an AI Service Layer (Gemini API, agricultural assistant, smart recommendations).
+**Backend Services (Node.js + Express)**, REST APIs split into Authentication & Authorization (JWT, role-based access), User Management, Agriculture Services (crop info, mandi rates, weather), Logistics Services (transport requests, live tracking, fuel rates), Community Services (forums, chat, notifications), and an AI Service Layer (Gemini API, agricultural assistant, smart recommendations).
 
-**External Integrations** — Gemini API for generative AI, a Weather API for forecasts, TTS/STT for voice interaction, and other APIs for mandi and fuel rates.
+**External Integrations**, Gemini API for generative AI, a Weather API for forecasts, TTS/STT for voice interaction, and other APIs for mandi and fuel rates.
 
-**Database (MongoDB)** — flexible, scalable NoSQL storage for user data, crop & land data, transactions, community posts, and analytics.
+**Database (MongoDB)**, flexible, scalable NoSQL storage for user data, crop & land data, transactions, community posts, and analytics.
 
-**AI Layer (Gemini)** — powers crop & soil recommendations, disease detection from image/text, personalized farming advice, and multilingual support.
+**AI Layer (Gemini)**, powers crop & soil recommendations, disease detection from image/text, personalized farming advice, and multilingual support.
 
 A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) → MongoDB + Gemini API → Response (text/voice, localized)**
 
@@ -201,14 +201,14 @@ A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) �
 
 ## 🔑 Environment Variables
 
-This repo is public — no real keys are committed. Create a `.env` file locally using this template:
+This repo is public, no real keys are committed. Create a `.env` file locally using this template:
 
 ```
 GEMINI_API_KEY=
 MONGODB_URI=
 ```
 
-> ⚠️ **Never commit real keys or credentials.** Use `.env` (git-ignored) for local secrets, and `.env.example` (like above) as a template for other contributors. If a key is ever exposed, revoke and rotate it — deleting it from a later commit does **not** remove it from Git history.
+> ⚠️ **Never commit real keys or credentials.** Use `.env` (git-ignored) for local secrets, and `.env.example` (like above) as a template for other contributors. If a key is ever exposed, revoke and rotate it, deleting it from a later commit does **not** remove it from Git history.
 
 **Never upload:** `.env` files, API keys, database credentials, auth secrets, tokens, passwords, or private user data.
 
