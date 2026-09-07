@@ -213,7 +213,7 @@ A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) �
 
 ## 🔑 Environment Variables
 
-This repo is public — no real keys are committed. Create a `.env` file locally using this template:
+This repo is public, no real keys are committed. Create a `.env` file locally using this template:
 
 ```
 GEMINI_API_KEY=
