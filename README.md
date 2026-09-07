@@ -140,8 +140,6 @@ The architecture is fully **modular**, auth, database, AI, speech, translation, 
 
 ---
 
----
-
 ## 🏗️ Architecture & System Workflow
 
 <div align="center">
