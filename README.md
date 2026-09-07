@@ -168,7 +168,6 @@ A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) �
 
 <div align="center">
 
-## Screenshots
 ### Landing Page
 ![Agralyticx Screenshot 8](assets/Screenshot%202026-09-06%20215023.png)
 ### Languages
