@@ -146,7 +146,7 @@ The architecture is fully **modular** — auth, database, AI, speech, translatio
 
 [![Watch the demo](https://img.shields.io/badge/▶-Watch%20Demo-red?style=for-the-badge)](#)
 
-*Link to be added — replace with your hosted video (YouTube/Drive/Loom).*
+*Link to be added*
 
 </div>
 
