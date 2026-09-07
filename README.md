@@ -205,7 +205,7 @@ A high-level flow: **User (5 roles) → Frontend (React) → Backend (Node.js) �
 ### Screenshot 6
 ![Agralyticx Screenshot 9](assets/Screenshot%202026-09-06%20215955.png)
 
-*Add screenshots to `assets/` and link them here.*
+
 
 </div>
 
